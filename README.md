@@ -3,7 +3,6 @@ ______________________________________________
 
 www.pritunl.com
 
-_Create By MK_
 _______________________________________________
 Script ini hanya mengandungi
 - Pritunl
