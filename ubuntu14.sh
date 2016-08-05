@@ -23,7 +23,6 @@ service squid3 restart
 
 # Enable Firewall
 sudo ufw allow 22,80,81,222,443,8080,9700,60000/tcp
-sudo ufw allow 22,80,81,222,443,8080,9700,60000/udp
 sudo yes | ufw enable
 
 # Change to Time GMT+8
@@ -70,7 +69,7 @@ echo "-MongoDB"
 echo "-Vnstat"
 echo "-Web Server"
 echo "-Squid Proxy Port 7166,60000"
-echo "BY MKSSHVPN"
+echo "Customized by Kazmi"
 echo "TimeZone   :  Malaysia"
 echo "Vnstat     :  http://$MYIP:81/vnstat"
 echo "Pritunl    :  https://$MYIP"
